@@ -1,27 +1,28 @@
 <!DOCTYPE html>
-<html lang="en"
 
-<head><title>Bipin</title></head>
+<html>
+    <head>
+        <script src="interaction.js"></script>
+        <link rel="stylesheet" href="css/style.css">                    
+    </head>
 
+    <body>
+        <div class="left-pane">    
+            <div id="contents"></div>            
+        </div>
 
+        <div class="right-pane">              
+            <div id="content-container">
+                <h2>Welcome</h2>
+                <p>Select a section to load content.</p>
+            </div>
 
-
-<body>
-    <h1>Bipin C </h1>
-    <p>Researcher, Engineer.</p>
-
-    <h1>Public Gits</h1>
-    <div> 
-    <p><a href="https://github.com/vu3bpn/sbia_knn">Code for crop classification from Sentinel-1 SAR data </a> </p>
-    <p><a href="https://github.com/vu3bpn/raster_operator">Raster operator </a> </p>
-    <p><a href="https://github.com/vu3bpn/bib_utility/tree/master">utility for citation management in Latex </a> </p>
-    <p><a href="https://github.com/vu3bpn/machine_learn_1">A simple ML classifier </a> </p>
-    
-    
-    </div>
-    <h1>GIS Applications</h1>
-    <p><a href="GIS_Apps/AOD.html">Optical Aerosol Depth map of India </a></p>
-    <p><a href="https://apu-campus-weather.netlify.app/">Campus Weather Report </a></p>
-</body>
-
+            <div id="section3" style="display:none;">
+                <h2>Section 3</h2>
+                <p>This is the content for Section 3.</p>
+            </div>
+        </div>        
+        <script> loadContent('contents', 'writings/contents.html') </script>
+        <script> loadContent('content-container', 'writings/bio.html') </script>
+    </body>
 </html>
