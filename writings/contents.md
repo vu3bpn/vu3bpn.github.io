@@ -12,7 +12,7 @@
     * <a onclick="loadContent('content-container', 'pages/sbia_git.html')" > Search Based Image Analysis</a>
     * <a onclick="loadContent('content-container', 'pages/raster_operator.html')" > Raster Operator</a>
 * **Visualization Apps**
-    * <a href="GIS_Apps/AOD.html" target="_blank">Optical Aerosol Depth map of India </a>
+    * <a href="GIS_Apps/AOD.html" target="_blank" rel="noopener noreferrer">Optical Aerosol Depth map of India </a>
 * **Publications**  
     * SBIA for Water layer Extraction
     * SBIA for Crop Classification
