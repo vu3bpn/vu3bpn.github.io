@@ -2,7 +2,7 @@ body {
     display: flex;
     font-family: 'Playfair Display', sans-serif;
     margin: 0;
-    height: 100vh;
+    height: 100%;
     font-size: 20px;
 }
 .left-pane {
