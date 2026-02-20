@@ -7,7 +7,7 @@ html,body {
 }
 .left-pane {
     width: 25%;
-    background-color: #dbc715;
+    background-color: #f1edc4;
     padding: 20px;
     min-height: 100vh;
 }
@@ -16,7 +16,7 @@ html,body {
     width: 75%;
     padding: 20px;
     overflow-y: auto;
-    background-color: #8cdbe9;
+    background-color: #d8f1f5;
     min-height: 100vh;
     /*background-image: linear-gradient(to right, red , yellow);*/
 }
