@@ -27,3 +27,8 @@
     A systematic error, over time can lead to amplification of error in the initial conditions of the simulation.
     Unless explicitly random noise is added to the simulation (as in case of Monte Carlo simulation), the mean and standard deviation of the results may not provide an accurate representation of the true variability in the system being simulated.
 </p>
+
+<p>
+    When analysing Climate data, ie CMIP data, Each model have slight differences in the way they simulate the climate system. These differences can lead to systematic errors in the model outputs. 
+    When we calculate the mean and standard deviation of the model outputs, we are essentially averaging out extreme values. This can lead to an underestimation of the true variability in the climate system.
+    For example, When two models doesnot give give rainfall in the same day, if we take ensemble mean of 35 models, the mean will show rainfall on almost all the days, which is not the case in reality.

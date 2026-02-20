@@ -16,7 +16,7 @@ html,body {
     width: 75%;
     padding: 20px;
     overflow-y: auto;
-    background-color: #d8f1f5;
+    background-color: #f7f7f7;
     min-height: 100vh;
     /*background-image: linear-gradient(to right, red , yellow);*/
 }
