@@ -1,4 +1,4 @@
-body {
+html,body {
     display: flex;
     font-family: 'Playfair Display', sans-serif;
     margin: 0;
@@ -9,6 +9,7 @@ body {
     width: 25%;
     background-color: #dbc715;
     padding: 20px;
+    min-height: 100vh;
 }
 
 .right-pane {
@@ -16,6 +17,7 @@ body {
     padding: 20px;
     overflow-y: auto;
     background-color: #8cdbe9;
+    min-height: 100vh;
     /*background-image: linear-gradient(to right, red , yellow);*/
 }
 .intro-title{
