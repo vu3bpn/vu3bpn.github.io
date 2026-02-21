@@ -4,3 +4,6 @@
 [submodule "GIS_Apps/aws_data"]
 	path = GIS_Apps/aws_data
 	url = git@github.com:vu3bpn/aws_data.git
+[submodule "pages/AOD"]
+	path = pages/AOD
+	url = git@github.com:vu3bpn/netlify_aod_districts.git
