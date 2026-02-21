@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- Main page -->
+  <url>
+    <loc>https://vu3bpn.github.io/</loc>
+    <lastmod>2026-02-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- Main pages -->
+  <url>
+    <loc>https://vu3bpn.github.io/pages/bio.html</loc>
+    <lastmod>2026-02-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://vu3bpn.github.io/pages/contents.html</loc>
+    <lastmod>2026-02-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- GIS Applications -->
+  <url>
+    <loc>https://vu3bpn.github.io/GIS_Apps/AOD.html</loc>
+    <lastmod>2026-02-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://vu3bpn.github.io/GIS_Apps/aws_data.html</loc>
+    <lastmod>2026-02-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Project Pages -->
+  <url>
+    <loc>https://vu3bpn.github.io/pages/sbia_git.html</loc>
+    <lastmod>2026-02-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://vu3bpn.github.io/pages/raster_operator.html</loc>
+    <lastmod>2026-02-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Publication Pages -->
+  <url>
+    <loc>https://vu3bpn.github.io/pages/SBIA_for_Water_layer_Extraction.html</loc>
+    <lastmod>2026-02-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://vu3bpn.github.io/pages/SBIA_crop_classification.html</loc>
+    <lastmod>2026-02-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Other Pages -->
+  <url>
+    <loc>https://vu3bpn.github.io/pages/Parallel_feature_extraction_tool.html</loc>
+    <lastmod>2026-02-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://vu3bpn.github.io/pages/ao.html</loc>
+    <lastmod>2026-02-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://vu3bpn.github.io/pages/mean_std.html</loc>
+    <lastmod>2026-02-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://vu3bpn.github.io/pages/research_management.html</loc>
+    <lastmod>2026-02-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://vu3bpn.github.io/pages/dreaming_potential.html</loc>
+    <lastmod>2026-02-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+</urlset>
