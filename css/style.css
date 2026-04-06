@@ -242,7 +242,16 @@ body {
     padding: 5rem 3rem 6rem;
 }
 
-.main iframe {
+
+.apps {
+    margin-left: var(--sidebar-w);
+    flex: 1;
+    min-height: 100vh;
+    background: var(--paper);
+    position: relative;
+}
+
+.apps iframe {
     width: 100%;
     height: 100vh;
     border: none;

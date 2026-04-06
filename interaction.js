@@ -10,8 +10,8 @@ window.addEventListener('scroll', () => {
 /* ── Mobile sidebar toggle ─────────────────────────────────── */
 document.addEventListener('DOMContentLoaded', () => {
     const hamburger = document.getElementById('hamburger');
-    const sidebar   = document.getElementById('sidebar');
-    const overlay   = document.getElementById('overlay');
+    const sidebar = document.getElementById('sidebar');
+    const overlay = document.getElementById('overlay');
 
     function openSidebar() {
         sidebar.classList.add('open');
@@ -37,6 +37,17 @@ function loadContent(sectionId, fileName) {
 
     // Skip animation class logic for the nav sidebar
     const isNav = sectionId === 'contents';
+
+    // Show only one: 'app' or 'main' — never both
+    const main = document.getElementById('main');
+    const app = document.getElementById('apps');
+    if (sectionId === 'apps') {
+        if (main) main.style.display = 'none';
+        if (app) app.style.display = '';
+    } else if (!isNav) {
+        if (main) main.style.display = '';
+        if (app) app.style.display = 'none';
+    }
 
     if (!isNav) {
         el.classList.remove('loaded');
