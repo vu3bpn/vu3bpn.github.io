@@ -1,38 +1,67 @@
 <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="google-site-verification" content="9mt4hoCc-XGdnxenu72eoCLCrzZdGZD6TcWVqMFK6rw" />
+    <title>Bipin C</title>
+    <meta name="description" content="Bipin C is a researcher with interests in Microwave Remote sensing, Climate Data Analytics, Data Visualization, Electronics, 3D printing, and IoT.">
+    <meta name="keywords" content="Bipin C, vu3bpn, Bipin Chandran, Researcher, Microwave Remote Sensing, Climate Data Analytics, Data Visualization, Electronics, 3D printing, IoT">
+    <meta name="author" content="Bipin C">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:description" content="Personal portfolio and projects">
+    <meta property="og:title" content="Bipin C">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://vu3bpn.github.io/">
+    <meta property="og:image" content="https://vu3bpn.github.io/images/bipin.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Mono:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
 
-<html>
-    <head>
-        <meta name="google-site-verification"  content="9mt4hoCc-XGdnxenu72eoCLCrzZdGZD6TcWVqMFK6rw" />
-        <title>Bipin C</title>
-        <meta name="description" content="Bipin C is a researcher with interests in Microwave Remote sensing, Climate Data Analytics, Data Visualization, Electronics, 3D printing, and IoT. Explore his work on Search Based Image Analysis, Raster Operator, and more.">
-        <meta name="keywords" content="Bipin C, vu3bpn, Bipin Chandran, Researcher, Microwave Remote Sensing, Climate Data Analytics, Data Visualization, Electronics, 3D printing, IoT">
-        <script src="interaction.js"></script>
-        <meta name="author" content="Bipin C">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta property="og:description" content="Personal portfolio and projects">
-        <meta property="og:title" content="Bipin C">
-        <meta property="og:type" content="website">
-        <meta property="og:url" content="https://vu3bpn.github.io/">
-        <meta property="og:image" content="https://vu3bpn.github.io/images/bipin.png">
-        <link rel="stylesheet" href="css/style.css">                    
-    </head>
+    <!-- Mobile hamburger -->
+    <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+    </button>
 
-    <body>
-        <div class="left-pane">    
-            <div id="contents"></div>            
+    <!-- Sidebar overlay for mobile -->
+    <div class="overlay" id="overlay"></div>
+
+    <aside class="sidebar" id="sidebar">
+        <div class="sidebar-header">
+            <div class="monogram">BC</div>
+            <div class="name-block">
+                <h1 class="site-name">Bipin C</h1>
+                <span class="callsign">vu3bpn</span>
+            </div>
         </div>
-        <div class="right-pane">              
-            <div id="content-container">
-                <h2>Welcome</h2>
-                <p>Select a section to load content.</p>
-            </div>
 
-            <div id="section3" style="display:none;">
-                <h2>Section 3</h2>
-                <p>This is the content for Section 3.</p>
+        <nav class="sidebar-nav" id="contents">
+            <!-- Loaded via JS: pages/contents.html -->
+        </nav>
+
+        <div class="sidebar-footer">
+            <div class="status-dot"></div>
+            <span>Available for collaboration</span>
+        </div>
+    </aside>
+
+    <main class="main" id="main">
+        <div class="scroll-indicator" id="scroll-indicator"></div>
+
+        <div id="content-container" class="content-area animate-in">
+            <div class="welcome-state">
+                <p class="welcome-eyebrow">Portfolio</p>
+                <h2 class="welcome-title">Welcome</h2>
+                <p class="welcome-sub">Select a section to explore.</p>
             </div>
-        </div>        
-        <script> loadContent('contents', 'pages/contents.html') </script>
-        <script> loadContent('content-container', 'pages/bio.html') </script>
-    </body>
+        </div>
+    </main>
+
+    <script src="interaction.js"></script>
+    <script>
+        loadContent('contents', 'pages/contents.html');
+        loadContent('content-container', 'pages/bio.html');
+    </script>
+</body>
 </html>
