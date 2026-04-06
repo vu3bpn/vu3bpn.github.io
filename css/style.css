@@ -85,7 +85,7 @@ body {
 
 .site-name {
     font-size: 1.3rem;
-    font-weight: 300;
+    font-weight: 600;
     letter-spacing: 0.04em;
     line-height: 1.1;
 }
@@ -126,7 +126,7 @@ body {
     color: rgba(245, 242, 235, 0.75);
     font-family: var(--serif);
     font-size: 1rem;
-    font-weight: 300;
+    font-weight: 600;
     letter-spacing: 0.02em;
     cursor: pointer;
     text-decoration: none;
@@ -279,7 +279,7 @@ body {
 
 .welcome-title {
     font-size: clamp(2.5rem, 6vw, 4rem);
-    font-weight: 300;
+    font-weight: 600;
     font-style: italic;
     color: var(--ink);
     line-height: 1;
@@ -296,7 +296,7 @@ body {
 .content-area h2,
 .content-area h3 {
     font-family: var(--serif);
-    font-weight: 300;
+    font-weight: 600;
     letter-spacing: 0.01em;
     line-height: 1.15;
     color: var(--ink);
