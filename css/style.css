@@ -36,6 +36,8 @@ body {
     line-height: 1.7;
 }
 
+
+
 /* ── Sidebar ───────────────────────────────────────────────── */
 .sidebar {
     position: fixed;
@@ -199,6 +201,12 @@ body {
     background: #4caf50;
     animation: pulse 2.5s ease-in-out infinite;
     flex-shrink: 0;
+}
+
+.copyright {
+  background: #222;
+  color: #ffffff;
+  font-size: 0.85rem;
 }
 
 @keyframes pulse {
@@ -484,3 +492,6 @@ body {
         max-width: 820px;
     }
 }
+
+
+
